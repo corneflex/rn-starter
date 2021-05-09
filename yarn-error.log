@@ -1,0 +1,57 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn
+
+PATH: 
+  /usr/local/sbin:/Users/steve.campos/Downloads/google-cloud-sdk/bin:/Users/steve.campos/Library/Android/sdk/emulator:/Users/steve.campos/Library/Android/sdk/tools:/Users/steve.campos/Library/Android/sdk/platform-tools/:/Users/steve.campos/Tools/dex2jar-2.0/:/usr/local/bin/:/Users/steve.campos/Documents/repo/flutter/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/steve.campos/Documents/repo/rn-starter/node_modules/.bin:/Users/steve.campos/Library/Android/sdk/emulator:/Users/steve.campos/Library/Android/sdk/tools:/Users/steve.campos/Library/Android/sdk/tools/bin:/Users/steve.campos/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.19.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/@react-native-community%2fmasked-view: ETIMEDOUT
+      at Timeout._onTimeout (/usr/local/lib/node_modules/yarn/lib/cli.js:141408:19)
+      at listOnTimeout (internal/timers.js:554:17)
+      at processTimers (internal/timers.js:497:7)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "@react-native-community/masked-view": "^0.1.10",
+      "expo": "~40.0.0",
+      "expo-status-bar": "~1.0.3",
+      "react": "16.13.1",
+      "react-dom": "16.13.1",
+      "react-native": "https://github.com/expo/react-native/archive/sdk-40.0.1.tar.gz",
+      "react-native-gesture-handler": "~1.8.0",
+      "react-native-reanimated": "~1.13.0",
+      "react-native-safe-area-context": "3.1.9",
+      "react-native-screens": "~2.15.2",
+      "react-native-web": "~0.13.12",
+      "react-navigation": "^4.4.4",
+      "react-navigation-stack": "^2.10.4"
+    },
+    "devDependencies": {
+      "@babel/core": "~7.9.0"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
